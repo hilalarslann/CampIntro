@@ -15,15 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math", "Math\Math.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueAndReferenceTypes", "ValueAndReferenceTypes\ValueAndReferenceTypes.csproj", "{F61AB3BF-4A09-47C2-A8E0-70A55239F914}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "BankaMusteriTakibi-Odev3\ClassMetotDemo.csproj", "{5DBE79D6-CCEC-44CA-94A2-10ED359260E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "BankaMusteriTakibi-Odev3\ClassMetotDemo.csproj", "{5DBE79D6-CCEC-44CA-94A2-10ED359260E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{92BF1476-D5A7-4038-9899-8C3C88183754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{92BF1476-D5A7-4038-9899-8C3C88183754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{F901D6B1-CFC0-48EB-9382-792B46AEE9AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{F901D6B1-CFC0-48EB-9382-792B46AEE9AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{85852231-0A89-4DCA-8CB3-7E96290B313E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{85852231-0A89-4DCA-8CB3-7E96290B313E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deneme", "Deneme\Deneme.csproj", "{F17E3E34-B358-499B-9540-896962F93B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deneme", "Deneme\Deneme.csproj", "{F17E3E34-B358-499B-9540-896962F93B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{F17E3E34-B358-499B-9540-896962F93B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F17E3E34-B358-499B-9540-896962F93B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F17E3E34-B358-499B-9540-896962F93B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
