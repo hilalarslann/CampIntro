@@ -1,4 +1,6 @@
-﻿namespace GenericsIntro
+﻿using System;
+
+namespace GenericsIntro
 {
     //Generic Class
     //<T> bana bir tip ver demek ben aşağıyı ona göre yapılandıracağım.
@@ -32,7 +34,7 @@
             items[items.Length - 1] = item;
         }
 
-        public int Lenght
+        public int Count
         {
             get { return items.Length; }
         }

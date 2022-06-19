@@ -3,16 +3,16 @@ using System.Collections.Generic;
 
 namespace Deneme
 {
-    class CustomerManager
+    class PersonManager
     {
-        List<Customer> customerList = new List<Customer>();
+        List<Person> personList = new List<Person>();
         List<Product> basketList = new List<Product>();
 
-        public void AddCustomer(params Customer[] customers)
+        public void AddPerson(params Person[] persons)
         {
-            foreach (Customer customer in customers)
+            foreach (Person person in persons)
             {
-                customerList.Add(customer);
+                personList.Add(person);
             }
         }
 
@@ -23,6 +23,7 @@ namespace Deneme
 
         public void MyBasketList()
         {
+            Console.WriteLine("---------MY BASKETS--------");
             foreach (Product item in basketList)
             {
                 Console.WriteLine("Ürün adı : " + item.ProductName);

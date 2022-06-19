@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Deneme
 {
@@ -11,6 +12,14 @@ namespace Deneme
             foreach (Product product in products)
             {
                 productList.Add(product);
+            }
+        }
+
+        public void ProductList()
+        {
+            foreach (var item in productList)
+            {
+                Console.WriteLine(item.ProductName);
             }
         }
     }

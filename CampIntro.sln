@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deneme", "Deneme\Deneme.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{AA34BCF0-F240-4BC4-9BFE-E2902FBD4064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{692EB131-36C0-4BB6-ABD9-39740FD275B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA34BCF0-F240-4BC4-9BFE-E2902FBD4064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA34BCF0-F240-4BC4-9BFE-E2902FBD4064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA34BCF0-F240-4BC4-9BFE-E2902FBD4064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA34BCF0-F240-4BC4-9BFE-E2902FBD4064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692EB131-36C0-4BB6-ABD9-39740FD275B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692EB131-36C0-4BB6-ABD9-39740FD275B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692EB131-36C0-4BB6-ABD9-39740FD275B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692EB131-36C0-4BB6-ABD9-39740FD275B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

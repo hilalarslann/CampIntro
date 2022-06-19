@@ -15,7 +15,7 @@ namespace GenericsIntro
             names.Add("Hilal");
 
             //Listedeki yani MyList generic classımızdaki dizideki eleman sayısı
-            Console.WriteLine(names.Lenght);
+            Console.WriteLine(names.Count);
 
             //Listedi yani MyList generic classımızda dizinin içinde tuttuğumuz elemanlar
             foreach (var item in names.Items)
