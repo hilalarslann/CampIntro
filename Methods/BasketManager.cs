@@ -6,8 +6,7 @@ namespace Methods
 {
     class BasketManager
     {
-        //naming convention
-        //syntax
+        //İki kullanım arasındaki farkı inceledik
 
         public void Add(Product product)
         {

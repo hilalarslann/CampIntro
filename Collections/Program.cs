@@ -7,6 +7,7 @@ namespace Collections
     {
         static void Main(string[] args)
         {
+            //Bu şekilde diziye sonrasından eleman eklenmez.
             //string[] names = new string[] { "Engin", "Murat", "Ali" };
 
             //Console.WriteLine(names[0]);

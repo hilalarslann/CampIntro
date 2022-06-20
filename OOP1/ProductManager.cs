@@ -8,7 +8,7 @@ namespace OOP1
         //encapsulation //product
         public void Add(Product product)
         {
-
+            Console.WriteLine("Eklendi");
         }
 
     }

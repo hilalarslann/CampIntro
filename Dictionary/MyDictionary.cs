@@ -17,6 +17,7 @@ namespace MakeDictionary
         {
             if (CheckIfKeyExit(key))
             {
+                //Aynı key var ise hata verdikdik
                 throw new Exception(key + " already exists.");
             }
 
@@ -35,6 +36,7 @@ namespace MakeDictionary
             values[values.Length - 1] = value;
         }
 
+        //Dictionary key benzersiz olduğu için aynı key girilip girilmediğini check ettik
         public bool CheckIfKeyExit(TKey key)
         {
             foreach (TKey item in keys)
