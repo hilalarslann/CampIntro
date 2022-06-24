@@ -9,6 +9,7 @@ namespace GenericsIntro
     class MyList<T>
     {
         T[] items;
+        int count;
 
         //Constructor
         public MyList()
@@ -16,6 +17,8 @@ namespace GenericsIntro
             //sıfır elemanlı dizi oluşturduk
             items = new T[0];
         }
+
+        //2 - 4 - 8 - 16 - 32
 
         //Programcı bana T olarak ne verirse onu kabul ediyorum.
         public void Add(T item)

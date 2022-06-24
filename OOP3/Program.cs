@@ -21,7 +21,6 @@ namespace OOP3
             creditApplicationManager.MakeApplication(new BusinessCreditManager(), new List<ILoggerService> { new DatabaseLoggerService(), new FileLoggerService() });
 
 
-
             List<ICreditManager> credits = new List<ICreditManager>() { personelCreditManager, transportCreditManager };
             //creditApplicationManager.CreditPreInfo(credits);
 

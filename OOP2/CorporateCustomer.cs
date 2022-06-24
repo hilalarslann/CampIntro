@@ -8,4 +8,5 @@ namespace OOP2
     {
         public string TaxNumber { get; set; }
         public string CompanyName { get; set; }
+    }
 }
