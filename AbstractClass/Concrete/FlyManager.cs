@@ -1,4 +1,5 @@
 ﻿using AbstractClass.Abstract;
+using AbstractClass.Entites;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -12,7 +13,7 @@ namespace AbstractClass.Concrete
             throw new NotImplementedException();
         }
 
-        public void Soar()
+        public void Soar(Vehicle vehicle)
         {
             throw new NotImplementedException();
         }

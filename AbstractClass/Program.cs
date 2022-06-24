@@ -10,12 +10,20 @@ namespace AbstractInterfaceProject
     {
         static void Main(string[] args)
         {
-            var baseVehicle = new RideManager();
+            BaseVehicleManager baseVehicle = new RideManager();
             baseVehicle.Go(new Vehicle());
-            baseVehicle.Ride(new Vehicle());
 
-            var baseVehicle2 = new FlyManager();
-            baseVehicle2.Soar();
+            List<Vehicle> vehicles = new List<Vehicle>();
+            vehicles.Add(new Vehicle() { Id = 1, Plate = "bisiklet" });
+            vehicles.Add(new Vehicle() { Id = 2, Plate = "uçak" });
+
+            foreach (var vehicle in vehicles)
+            {
+                if (vehicle is IRideable)
+                {
+                    (vehicle as IRideable).Ride(vehicle);
+                }
+            }
 
             Console.ReadLine();
         }

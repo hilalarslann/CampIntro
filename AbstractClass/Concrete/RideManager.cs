@@ -15,7 +15,7 @@ namespace AbstractClass.Concrete
 
         public void Ride(Vehicle vehicle)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Sürüldü" + vehicle.Plate);
         }
     }
 }

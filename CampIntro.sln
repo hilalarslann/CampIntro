@@ -23,8 +23,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsIntro", "GenericsIntro\GenericsIntro.csproj", "{85852231-0A89-4DCA-8CB3-7E96290B313E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deneme", "Deneme\Deneme.csproj", "{F17E3E34-B358-499B-9540-896962F93B86}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{AA34BCF0-F240-4BC4-9BFE-E2902FBD4064}"
@@ -81,10 +79,6 @@ Global
 		{85852231-0A89-4DCA-8CB3-7E96290B313E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85852231-0A89-4DCA-8CB3-7E96290B313E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85852231-0A89-4DCA-8CB3-7E96290B313E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F17E3E34-B358-499B-9540-896962F93B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F17E3E34-B358-499B-9540-896962F93B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F17E3E34-B358-499B-9540-896962F93B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F17E3E34-B358-499B-9540-896962F93B86}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8032C4BE-5F1C-4EF7-A5DC-D2840B41A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU

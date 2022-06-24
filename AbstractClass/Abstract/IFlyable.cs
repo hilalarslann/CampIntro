@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbstractClass.Entites;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,6 @@ namespace AbstractClass.Abstract
 {
     public interface IFlyable
     {
-         void Soar();
+         void Soar(Vehicle vehicle);
     }
 }
