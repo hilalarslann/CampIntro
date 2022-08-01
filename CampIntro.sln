@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampIntro", "CampIntro\CampIntro.csproj", "{EDAD1799-26C9-49FF-914F-25147CCE4D1C}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP3", "OOP3\OOP3.csproj", "{B2295F87-AAC7-427F-84D9-CF4F3AF923EE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{AA1E2E4C-5A03-453D-BE49-75234E973415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{C65D8C03-6582-40D6-BEEE-B0BA001EBDC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{AA1E2E4C-5A03-453D-BE49-75234E973415}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA1E2E4C-5A03-453D-BE49-75234E973415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA1E2E4C-5A03-453D-BE49-75234E973415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65D8C03-6582-40D6-BEEE-B0BA001EBDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65D8C03-6582-40D6-BEEE-B0BA001EBDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65D8C03-6582-40D6-BEEE-B0BA001EBDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65D8C03-6582-40D6-BEEE-B0BA001EBDC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
